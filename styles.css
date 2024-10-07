@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  position: fixed;
+  top: 15px;
+  height: 40rem;
+  width: 40rem;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  margin-bottom: 10rem;
+  color: white;
+}
+
+.box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.box1 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+}
+
+.box2 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+}
+
+.box3 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+}
+
+.box4 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+}
+
+.box5 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 5px 0px;
+}
+
+.box6 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+}
+
+.box7 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+}
+
+.box8 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+}
+
+.box9 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+}
+
+.plays {
+  position: fixed;
+  top: 650px;
+  color: white;
+  font-size: 20pt;
+  position: fixed;
+  bottom: 100px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 700px) {
+  .box {
+    position: fixed;
+    top: 2rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+  }
+
+  .plays {
+    position: fixed;
+    top: 30rem;
+  }
+
+  .box div {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .box {
+    position: fixed;
+    top: 2rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+  }
+
+  .plays {
+    position: fixed;
+    top: 25rem;
+  }
+}
+
