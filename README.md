@@ -1,2 +1,17 @@
-# tic-tac-toe
-This **Tic-Tac-Toe** game is built with HTML, CSS, JavaScript, and jQuery. Two players alternate placing Xs and Os on a 3x3 grid. It tracks turns, checks for a winner, and announces the result. If all boxes are filled without a winner, it declares a draw. The design features retro fonts and is responsive for different screen sizes.
+# Tic-Tac-Toe Game
+
+A simple, retro-styled Tic-Tac-Toe game built using HTML, CSS, JavaScript, and jQuery. Two players take turns placing Xs and Os on a 3x3 grid, with the game automatically checking for a winner or a draw.
+
+## Features
+
+- Two-player turn-based game
+- Displays current player's turn
+- Automatically checks for wins or draws
+- Retro-styled fonts and responsive design
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (jQuery)
+
